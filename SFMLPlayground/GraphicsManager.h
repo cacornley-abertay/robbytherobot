@@ -5,7 +5,7 @@
 
 class GraphicsManager
 {
-	int render_delay = 1000;
+	int render_delay = 1000;	// Delay in milliseconds for the draw cycle
 public:
 	//Constants
 	const int CELLSIZE = 40;	//Size of each tile as well as used to offset each tile
@@ -26,8 +26,10 @@ public:
 	~GraphicsManager();
 
 	//This function draws all items and handles keyboard inputs
-	void paintComponent(Room* room, Robot* robot);
+	//void paintComponent(Room* room, Robot* robot);
 	void paintComponent();
 	void draw();
+
+	// Sets draw delay time
 	void setDrawDelay(unsigned newDelay);
 };
