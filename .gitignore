@@ -34,3 +34,5 @@
 # Visual Studio Folders
 .vs/
 SFMLPlayground/x64/
+x64/Debug/SFMLPlayground.ilk
+x64/Debug/SFMLPlayground.pdb
